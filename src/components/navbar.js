@@ -10,10 +10,10 @@ class navbar extends Component {
           <a className="navbar-item" href="/">
             <img src={logo} width="30" height="30" />
           </a>
-          <a className="navbar-item" href="/">Tracker</a>
-          <a className="navbar-item" href="/">Forecaster</a>
-          <a className="navbar-item" href="/">Projects</a>
-          <a className="navbar-item" href="/">Analyzer</a>
+          <a className="navbar-item" href="#">Tracker</a>
+          <a className="navbar-item" href="#">Forecaster</a>
+          <a className="navbar-item" href="#">Projects</a>
+          <a className="navbar-item" href="#">Analyzer</a>
         </div>
       </nav>
     );
