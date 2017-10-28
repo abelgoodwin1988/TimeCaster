@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
-import 'bulma/css/bulma.css';
-import Navbar from './components/navbar';
-import logo from './storage/logo/Avatar2_Trans.png';
-import {s
+import {
   BrowserRouter as Router
   , Route
   , Link
 } from 'react-router-dom';
+
+import 'bulma/css/bulma.css';
+
+import Navbar from './components/navbar';
+import Analyzer from './components/analyzer/analyzer_index';
+import Forecaster from './components/forecaster/forecaster_index';
+import Projects from './components/projects/projects_index';
+import Tracker from './components/tracker/tracker_index';
+import logo from './storage/logo/Avatar2_Trans.png';
+
 
 const navbar = () => (
   <Router>
@@ -26,7 +33,7 @@ const navbar = () => (
       <Route path="/tracker" component={placeHolder2}/>
       <Route path="/forecaster" component={placeHolder}/>
       <Route path="/projects" component={placeHolder2}/>
-      <Route path="/analyzer" component={placeHolder}/>
+      <Route path="/analyzer" component={Analyzer}/>
 
     </div>
 
