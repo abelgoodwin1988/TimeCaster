@@ -23,9 +23,9 @@ const navbar = () => (
       </nav>
 
       <Route exact path="/" component={placeHolder}/>
-      <Route path="/tracker" component={placeHolder}/>
+      <Route path="/tracker" component={placeHolder2}/>
       <Route path="/forecaster" component={placeHolder}/>
-      <Route path="/projects" component={placeHolder}/>
+      <Route path="/projects" component={placeHolder2}/>
       <Route path="/analyzer" component={placeHolder}/>
 
     </div>
@@ -35,7 +35,13 @@ const navbar = () => (
 
 const placeHolder = () => (
   <div className="container">
-    Hello thar!
+    From Spain
+  </div>
+)
+
+const placeHolder2 = () => (
+  <div className="container">
+    Portugal
   </div>
 )
 
