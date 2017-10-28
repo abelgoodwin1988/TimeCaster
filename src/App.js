@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bulma/css/bulma.css';
 import Navbar from './components/navbar';
 import logo from './storage/logo/Avatar2_Trans.png';
-import {
+import {s
   BrowserRouter as Router
   , Route
   , Link
